@@ -23,7 +23,7 @@ let package = Package(
             dependencies: []),
         .binaryTarget(
             name: "IdentifySDK",
-            path: "Sources/IdentifySDK.xcframework"
+            path: "./Sources/IdentifySDK.xcframework"
         ),
         .testTarget(
             name: "IdentifyFWTests",
